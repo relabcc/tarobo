@@ -1,0 +1,134 @@
+[
+  {
+    "type": "quiz",
+    "title": "\u266B 親愛的 你是否還記得 \u266B\n低利率的意義是？",
+    "choices": [
+      {
+        "text": "我知道！就是跟三角函數有關的那個！",
+        "img": "q-1-1",
+      },
+      {
+        "text": "就是我把錢存在銀行能得到的利率",
+        "img": "q-1-2",
+      },
+      {
+        "text": "是中央銀行借錢給其他銀行所收的利率",
+        "correct": true,
+        "img": "q-1-3",
+      },
+      {
+        "text": "我不知道...",
+        "img": "q-1-4",
+      },
+    ],
+  },
+  {
+    "type": "score",
+    "title": "\u266B 放鬆 讓我 來說 \u266B\n低利率的影響是什麼？",
+    "img": "q-2",
+    "choiceBtn": true,
+    "choices": [
+      {
+        "text": "什麼！\n到底有什麼影響？",
+        "score": 0,
+      },
+    ],
+  },
+  {
+    "type": "score",
+    "title": "\u266B 水電和房租 成績和任務 \u266B\n你背負了多少債務？",
+    "skippable": true,
+    "choices": [
+      {
+        "text": "我有學貸、其他貸款或股票等金融融資",
+        "score": 1,
+        "img": "q-3-1",
+      },
+      {
+        "text": "沒有，無債一身輕",
+        "score": -1,
+        "img": "q-3-2",
+      },
+    ],
+  },
+  {
+    "type": "score",
+    "title": "\u266B 想要的生活怎麼有一百種 \u266B\n你最想要的生活是哪一種？",
+    "skippable": true,
+    "choices": [
+      {
+        "text": "像歐美一樣錢多多，但什麼東西都貴松松",
+        "score": -1,
+        "img": "q-4-1",
+      },
+      {
+        "text": "還是台灣好棒棒，物美價廉紅不讓",
+        "score": 1,
+        "img": "q-4-2",
+      },
+    ],
+  },
+  {
+    "type": "score",
+    "title": "房價一直漲，你怎麼看？",
+    "skippable": true,
+    "choices": [
+      {
+        "text": "讓我們Get High 用雙手把天撐開，投資當然要愈high愈好",
+        "score": 1,
+        "img": "q-5-1",
+      },
+      {
+        "text": "整個台北的土地蓋的直直撞，22K的數字買不起任何一棟",
+        "score": -1,
+        "img": "q-5-2",
+      },
+    ],
+  },
+  {
+    "type": "score",
+    "title": "如果有額外的存款，你希望怎麼做？",
+    "valued": true,
+    "skippable": true,
+    "choices": [
+      {
+        "text": "只要實實在在的存錢\n錢還是錢",
+        "score": -1,
+        "img": "q-6-1",
+      },
+      {
+        "text": "Money, money, money. Must be funny\n當然要投資！",
+        "score": 1,
+        "img": "q-6-2",
+      },
+    ],
+  },
+  {
+    "type": "meta",
+    "key": "age",
+    "title": "\u266B 是誰在敲打我窗 \u266B\n你的身分是？",
+    "img": "q-7",
+    "choiceBtn": true,
+    "noShuffle": true,
+    "choices": [
+      {
+        "text": "未成年",
+      },
+      {
+        "text": "大學生",
+      },
+      {
+        "text": "社會新鮮人\n（畢業三年內）",
+      },
+      {
+        "text": "在社會上打混一段時間了",
+      },
+      {
+        "text": "已經是職場老手了",
+      },
+      {
+        "text": "已讀不回淘汰\n不想回答",
+      },
+    ],
+  },
+]
